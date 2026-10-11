@@ -5,9 +5,9 @@ function findLongestWord(sentence){
         length.push(word.length);
         
     }
-    console.log(length);
+    // console.log(length);
     const longLen = Math.max(...length);
-    console.log(longLen);
+    // console.log(longLen);
 
     for(let word of words){
         if(word.length === longLen){
